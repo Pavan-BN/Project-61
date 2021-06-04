@@ -1,0 +1,150 @@
+body {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+
+.line {
+    height: 8px;
+    background-color: #000;
+    width: 80px;
+    margin: 10px auto;
+}
+
+#profile {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.menu {
+    list-style: none;
+    font-family: monospace;
+    position: fixed;
+
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+
+    float: left;
+}
+
+.link {
+    float: left;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 20px;
+    color: white;
+
+
+
+}
+
+.link:hover {
+    background-color: black;
+    color: whitep;
+}
+
+
+#main {
+    background: linear-gradient(#E1BEE7 0%, #90CAF9 100%);
+    font-family: 'Lato', sans-serif;
+}
+
+#hobby {
+    color: red;
+}
+
+#About {
+    font-family: 'Zen Dots', cursive;
+    background-color: lightpink;
+    height: 100%
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+#character_reviwes {
+    background-color: lightcoral;
+    font-family: 'Lato', sans-serif;
+
+}
+
+#link1 {
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: none;
+    color: white
+}
+
+.button {
+    background-color: crimson;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+}
+
+.button {
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: black;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.15);
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.ins_img {
+    width: 400px;
+    height: 200px;
+    transition: transform.2s;
+    border: 8px solid #AAAAAA;
+    left: 8px;
+    bottom: 10px;
+    right: 8px;
+    top: 20px;
+
+}
+
+.ins_img:hover {
+    transform: scale(0.8)
+}
+
+#mail {
+    text-decoration: none;
+    color: darkblue;
+    font-size: 20px;
+}
+
+#mail:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.link2 {
+    text-decoration: none;
+    color: coral;
+}
+
+#mail {
+    width: 40px;
+}
